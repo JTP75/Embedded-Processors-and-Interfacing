@@ -1,0 +1,11 @@
+--cpu=Cortex-M4.fp.sp --branchpatch=sdcomp-29491-629360
+".\objects\core_cm4_constants.o"
+".\objects\main.o"
+".\objects\startup_stm32l476xx.o"
+".\objects\stm32l476xx_constants.o"
+".\objects\sysclock.o"
+".\objects\uart.o"
+--strict --scatter ".\Objects\lab3.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\lab3.map" -o .\Objects\lab3.axf
