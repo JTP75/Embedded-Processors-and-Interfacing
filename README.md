@@ -20,4 +20,4 @@ Takes inputs from an external keypad and prints the typed values to serial outpu
 ## Lab 5 - Mechatronics
 Program to sequence GPIO outputs to turn a stepper motor. Also tracks the stepper motor's revolution angle (based on observations). (ARM Assembly)
 ## Lab 6 - Alarms
-Uses low-level programming to set a system alarm and write its outputs to a MicroSD card.
+Uses low-level programming to set a system alarm and write its outputs to a MicroSD card. (C)
