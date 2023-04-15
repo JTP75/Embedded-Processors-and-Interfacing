@@ -19,3 +19,5 @@ Stores a 4-bit counter to display hexidecimal values on an external 7-segment di
 Takes inputs from an external keypad and prints the typed values to serial output. (ARM Assembly)
 ## Lab 5 - Mechatronics
 Program to sequence GPIO outputs to turn a stepper motor. Also tracks the stepper motor's revolution angle (based on observations). (ARM Assembly)
+## Lab 6 - Alarms
+Uses low-level programming to set a system alarm and write its outputs to a MicroSD card.
